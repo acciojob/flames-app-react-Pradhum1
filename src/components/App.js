@@ -47,6 +47,7 @@ return(
         onChange={(e)=> setName1(e.target.value)}
             placeholder = "Enter first name"
             dtat-testId = "input1"
+            name="name1"
         />
 
 <input 
@@ -54,6 +55,7 @@ return(
         onChange={(e)=> setName2(e.target.value)}
             placeholder = "Enter second name"
             dtat-testId = "input2"
+            name="name2"
         />
 
         <button
@@ -63,7 +65,7 @@ return(
         <button
         data-testid="clear"
         onClick={clear}>Clear</button>
-        {relation && <h3 data-testid="answer">{relation}</h3>}
+        <h3 data-testid="answer">{relation}</h3>
 
         
 
