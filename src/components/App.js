@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
 
 const relations= ["Friends",  "Love", "Affection",  "Marriage", "Enemy", "Siblings"];
